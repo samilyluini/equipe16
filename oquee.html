@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="utf-8">
+        <title>A Empresa</title>
+        <link href="css/estilo.css"
+            type="text/css"
+            rel="stylesheet">
+    </head>
+
+    <body>
+    
+            <p class="titulo">
+                    <a href="index.html">
+                        <img src="imagens/logo-mentawai-t&c.png"
+                            alt="logo da empresa"
+                            height="150"
+                            width="150"
+                            class="logo"></a>
+                    
+                       Mentawai T&C
+                       
+                    </p>
+                    <p class="menu">| 
+                            <a href = "index.html" class="junta-menu">Home</a> | 
+                            <a href = "oquee.html" class="junta-menu">A Empresa</a> | 
+                            <a href = "cursos-e-eventos.html" class="junta-menu">Nossos Cursos</a> | 
+                            <a href = "vagas-empregos.html" class="junta-menu">Vagas de emprego</a> |
+                            <a href = "artigos.html" class="junta-menu">Artigos</a> |
+                            <a href = "http://mentawaiblogphotography.photo.blog/" target="_blank" class="junta-menu">Nosso blog</a> |
+                            <a href = "cadastros.html" class="junta-menu">Realizar cadastros</a> |
+        
+                    </p>
+ 
+<div class="pagina-com-margem">
+
+        <p class="titulo-paragrafo">Tudo sobre a empresa Mentawai T&C
+                <img src="imagens/imagem-5.jpg"
+                alt="imagem 5"
+                height="325"
+                width="350"
+                class="imagem-direito">
+        </p>
+
+        <p>
+             A empresa Mentawai T&C é uma empresa focada em prestar treinamento e consultoria,
+            sobre Mentawai, um  framework web full-stack, action-based, MVC e open-source em Java.
+            Temos o objetivo de ensinar ao público alvo a desenvolver suas habilidades voltadas <br> para a ferramenta.
+            Essas habilidades serão desenvolvidas e aperfeiçoadas através de cursos online e presencial,
+            palestras ministradas por profissionais formados e especializados na área, e consultorias. Todos
+            os conceitos presentes na ferramenta que forem úteis serão <br> passados para as pessoas. Oferecemos todos
+            os níveis, desde o básico até o avançado, para que todos sintam-se inclusos na nossa empresa.
+        </p>
+
+        <ul>
+
+         <li><h3> Cursos oline</h3>
+
+            Os cursos olines serão através de video aulas gravadas contendo todos os conteúdos necessários para aprender
+            a utilizara o framework, além disso, será disponibilizado apostilas em pdf que poderão ser baixadas e acessadas
+            que irá complementar todo o ensino passado<br> através das aulas online. Para mais, as aulas além de gravadas terá 
+            também ao vivo semanais, onde os professores irão tirar todas as dúvidas que poderão surgir ao longo da semana. 
+        </li>
+
+        <li><h3>Cursos presenciais </h3>
+
+            Os cursos presenciais abordarão todo conteúdo necessário para aprender a utilizar o framework, com professores
+            profissionais e experientes que irão repassar todo conteúdo e tirar dúvidas. Além disso, será disponibilizado apostilas
+            para complementar o assunto repassado. 
+            <br>
+            Temos cursos presenciais em toda área de Alagoas e nos demais estados pelo menos 2 empresas disponíveis entregando todo 
+            o conteúdo, além disso, já temos disponíveis nos países Estados Unidos, China, Alemanha e França. 
+        </li>
+
+        <li><h3>Palestras </h3>
+            As palestras serão ministradas por profissionais da área que irão repassar tudo o que for necessário para que a aprendizagem
+            sobre o framework seja completa. Os profissionais irão ensinar como usar, o que é, e como implementar em várias atividades.
+        </li>
+
+        <li><h3>Consultorias </h3>
+            As consultorias servirão como um encontro de apoio, os profissionais irão ajudar as pessoas com dúvidas, com curiosidades, mas, sobretudo,
+            ela serve para ensinar aqueles que estão com dificuldades na ferramenta e querem aperfeiçoar ainda mais suas habilidades.
+        </li>
+    </ul>
+    <br>
+    <hr>
+
+   
+    <p class="titulo-paragrafo">Aprendendo o básico do framework Mentawai</p>
+         
+    <ul>
+        <li><h3>O framework</h3></li>
+    </ul>
+        <dd>O Mentawai usa o paradigma das Actions. As principais características de uma action são:</dd>
+            <ol>
+                <li>Uma action possui um input por onde ela recebe os dados de uma requisição web 
+                    e um output por onde os resultados da execução de uma action podem ser acessados;</li>
+                <li>Uma action gera um resultado depois de executado. O resultado normalmente é 
+                    success ou error, mas nada impede de criar novos resultados;</li>
+                <li>Para cada resultado existe uma consequência. Essas consequências normalmente 
+                    são forward ou redirect, mas nada impede de criar outras;</li>
+                <li>Uma action tem acesso a contextos, esses normalmente são SessionContext ou 
+                    AplicationContext, mas nada impede de criar outras.</li>
+            </ol>
+        <dd>
+            As funcionalidades desse framework são implementadas através de filtros. Um filtro 
+            intercepta uma action e pode modificar seu input e output, antes ou depois da execução de uma action.
+            <br>
+            Apesar do Mentawai não usar arquivos XML e sua configuração ser toda em Java, não há mistura de 
+            códigos. Toda configuração é feita numa classe especial separada do código fonte, chamada 
+            ApplicationManager.java, essa classe deve conter o mapeamento de todas a <br>ações (Actions) e suas consequências.
+            <br>
+            O Mentawai disponibiliza várias funcionalidades já implementadas como: filtros, autenticação, 
+            autorização, validação, mensagens dinâmicas, inversão de controle, injeção de dependências, 
+            internacionalização, entre outras. Assim há um ganho de tempo, uma vez que não <br> é preciso escrever
+             códigos com tais objetivos, que são repetitivamente encontrados na maior parte dos projetos web. 
+        </dd>
+    <ul>
+        <li><h3>Utilização do Mentawai</h3></li>
+    </ul>
+        <dd>Para começar, considera-se que o leitor já possua uma ferramenta de IDE (Eclipse, Netbeans) de sua
+            preferência já instalada e em funcionamento, além de um contêiner como Tomcat.
+            <br>
+            O site oficial do Mentawai disponibiliza um plugin no formato .nbm para utilização do mesmo nesta 
+            ferramenta. A instalação do plugin pode ser encontrada dentro do arquivo compactado.
+            <br>
+            utilizar o Mentawai deve-se seguir os seguintes passos: </p>
+            <ol>
+                <li>Baixar o arquivo correspondente à versão atual do Mentawai, que no momento de escrita 
+                    deste é a 1.9 e está disponível em: <a href = "http://www.mentaframework.org/mentawai-1.9.zip" target="_blank"> mentaframework</a></li>
+                <li>Descompactar o arquivo em qualquer diretório vazio e instalá-lo.</li>
+                </ol>
+
+        <dd>Para aprender mais sobre o framework acesse nossos cursos <a href = "cursos-e-eventos.html">aqui</a>, 
+            com eles você poderá aprender mais sobre as características do Mentawai e como utilizá-lo.
+        <br>
+        Oferecemos cursos online de nível básico, intermediário e avançado sobre o framework Mentawai, com carga 
+        horária variada de 6 a 30 horas, sendo grande parte gratuitos.</dd>
+        <br>
+        <cite><dd><q> 
+            A empresa Mentawai T&C está no mercado há 10 anos, espalhando conhecimento para todos aqueles que sentem interesse
+            na ferramenta.Em 2009, quando iniciou, no mesmo ano recebeu o prêmio de<q><strong>Melhor programa empreendedor </strong></q>,<br> em 2012 recebeu o prêmio
+            de <q><strong>Melhor ensino tecnológico</strong></q>, inclusive, recebeu esse prêmio em 2015, 2017, 2018 e 2019. Além disso, acumulamos prêmios 
+            sobre <q><strong>Melhor curso de informática Mentawai</strong></q>,<br> e <q><strong>Melhor curso da área da informática</strong></q>, por ter profissionais excelentes e 
+            bem qualificado, ensino de qualidade e de fato, empresa que forma profissionas aptos para a área do framework.</q></dd></cite>
+
+        </div>
+            <br>
+            <br>
+      
+            <div id="rodape">
+                  <br>
+                      <p><b>Telefone de contato: </b>3262-2202</p>
+                      <p><b>WhatsApp: </b>+55 (082) 9 9352-7741</p>
+                      <p><b>Localização: </b>Av. Durval de Góes Monteiro, 4002 - Tabuleiro do Martins, Maceió - AL, 57081-285</p>
+                      <p><i>Todos os direitos reservados©</i></p>
+             </div>
+        
+    </body>
+</html>
